@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=§">
+    <title>WinXP - Contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+<body>
+    <div id="app-wrapper">
+        <a href="calculator.html" class="app-icon">
+            <img src="images/calculator-icon.png" alt="Calculator">
+            <p>Calculator</p>
+        </a>
+        <a href="contacts.html" class="app-icon">
+            <img src="images/contacts-icon.png" alt="Contacts">
+            <p>Contacts</p>
+        </a>
+        <a href="table-calculator.html" class="app-icon">
+            <img src="images/table-icon.png" alt="Table Calculator">
+            <p>Table Calculator</p>
+        </a>
+    </div>
+    <div>
+        <div class="app" id="contacts">
+            <div class="app-title">
+                Contacts
+                <a class="app-close-button" href="index.html">&times;</a>
+            </div>
+
+            <div class="app-content">
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label for="txtName">Name</label>
+                        <input type="text" id="txtName">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPhone">Phone</label>
+                        <input type="text" id="txtPhone">
+                    </div>
+                    <br>
+                    <button id="btnSave">Save</button>
+                </div>
+                <table>
+                    <thead>
+                        <th>Name</th>
+                        <th>Phone</th>
+                    </thead>
+                    <tbody id="tableBody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="taskbar">
+        <div id="start-button">
+            <img src="images/start.png" alt="start button">
+        </div>
+    </div>
+    <script src="scripts/contacts.js"></script>
+</body>
+</html>

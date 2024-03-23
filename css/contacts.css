@@ -1,0 +1,17 @@
+.form-group label {
+    display: block;
+}
+
+.contact-form {
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border: 1px solid #ebebeb;
+}
+thead {
+    background-color: #f9f9f9;
+}
+tr {
+    border-bottom: 1px solid #cdcdcd;
+}

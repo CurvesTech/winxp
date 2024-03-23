@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=§">
+    <title>WinXP - Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <div id="app-wrapper">
+        <a href="calculator.html" class="app-icon">
+            <img src="images/calculator-icon.png" alt="Calculator">
+            <p>Calculator</p>
+        </a>
+        <a href="contacts.html" class="app-icon">
+            <img src="images/contacts-icon.png" alt="Contacts">
+            <p>Contacts</p>
+        </a>
+        <a href="table-calculator.html" class="app-icon">
+            <img src="images/table-icon.png" alt="Table Calculator">
+            <p>Table Calculator</p>
+        </a>
+    </div>
+    <div>
+        <div class="app" id="calculator">
+            <div class="app-title">
+                Calculator
+                <a class="app-close-button" href="index.html">&times;</a>
+            </div>
+            <div class="app-content">
+                <div id="display">0</div>
+                <div id="keys">
+                    <button id="keyClear">CLEAR</button>
+                    <div class="number-row">
+                        <button id="key7" class="number-key">7</button>
+                        <button id="key8" class="number-key">8</button>
+                        <button id="key9" class="number-key">9</button>
+                        <button id="keyPlus" class="operator-key">+</button>
+                    </div>
+                    <div class="number-row">
+                        <button id="key4" class="number-key">4</button>
+                        <button id="key5" class="number-key">5</button>
+                        <button id="key6" class="number-key">6</button>
+                        <button id="keyMinus" class="operator-key">-</button>
+                    </div>
+                    <div class="number-row">
+                        <button id="key1" class="number-key">1</button>
+                        <button id="key2" class="number-key">2</button>
+                        <button id="key3" class="number-key">3</button>
+                        <button id="keyMultiply" class="operator-key">X</button>
+                    </div>
+                    <div class="number-row">
+                        <button id="key0" class="number-key">0</button>
+                        <button id="keyPoint" class="number-key">.</button>
+                        <button id="keyEqual" class="equal-key">=</button>
+                        <button id="keyDivide" class="operator-key">/</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="taskbar">
+        <div id="start-button">
+            <img src="images/start.png" alt="start button">
+        </div>
+    </div>
+    <script src="scripts/calculator.js"></script>
+</body>
+</html>
